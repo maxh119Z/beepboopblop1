@@ -9,8 +9,13 @@ struct FormView: View {
             Color(hex: "#fdf6ec").ignoresSafeArea()
 
             VStack(spacing: 16) {
-                // Top row buttons
+                NavigationLink("Start Form Detection") {
+                    CameraPoseView()
+                }
+
                 HStack {
+          
+                    
                     IconButton(systemName: "chevron.left") {
                         dismiss() // goes back
                     }
