@@ -1,66 +1,71 @@
-//
-//  ContentView.swift
-//  BeepBloopBoop
-//
-//  Created by Max Zhang on 2/1/26.
-//
-
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
-            .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
+        NavigationStack {
+            ZStack {
+                Color(hex: "#fdf6ec").ignoresSafeArea()
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+                VStack(spacing: 0) {
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+                    VStack(spacing: 10) {
+                        HStack(spacing: 12) {
+                            Text("Badminton\nAI Coach")
+                                .font(.custom("Inter_28pt-ExtraBold", size: 55))
+                                .foregroundColor(Color(hex: "#1A202C"))
+                                .multilineTextAlignment(.center)
+
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 40, height: 52.5)
+                        }
+
+                        Text("bbb birdie elite center beep")
+                            .font(.custom("Inter_28pt-SemiBoldItalic", size: 18))
+                            .foregroundColor(Color(hex: "#1A202C"))
+                    }
+                    .padding(.top, 80)
+                    .padding(.bottom, 50)
+
+                    VStack(spacing: 20) {
+                        NavButton(title: "Form Correction") {
+                            FormView()
+                        }
+
+                        NavButton(title: "Match Analysis") {
+                            MatchView()
+                        }
+
+                        NavButton(title: "About Us") {
+                            AboutView()
+                        }
+                    }
+
+                    Spacer()
+                }
+                .padding(.horizontal, 24)
             }
         }
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+/// Reusable button that matches your RN styling
+private struct NavButton<Destination: View>: View {
+    let title: String
+    let destination: () -> Destination
+
+    var body: some View {
+        NavigationLink(destination: destination()) {
+            Text(title)
+                .font(.custom("Inter_24pt-Regular", size: 26))
+                .foregroundColor(.black)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 22)
+                .background(Color(hex: "#9fc9ae"))
+                .cornerRadius(12)
+                .shadow(color: .black.opacity(0.35), radius: 13, x: 0, y: 4)
+        }
+        .buttonStyle(.plain) // safe here because label is fully custom
+    }
 }

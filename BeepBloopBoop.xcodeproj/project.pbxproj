@@ -58,6 +58,11 @@
 			path = BeepBloopBoopUITests;
 			sourceTree = "<group>";
 		};
+		42A8DAE72F2FE29B0004E983 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		42A8DAA72F2FDF9F0004E983 = {
 			isa = PBXGroup;
 			children = (
+				42A8DAE72F2FE29B0004E983 /* Resources */,
 				42A8DAB22F2FDF9F0004E983 /* BeepBloopBoop */,
 				42A8DAC42F2FDFA00004E983 /* BeepBloopBoopTests */,
 				42A8DACE2F2FDFA00004E983 /* BeepBloopBoopUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				42A8DAB22F2FDF9F0004E983 /* BeepBloopBoop */,
+				42A8DAE72F2FE29B0004E983 /* Resources */,
 			);
 			name = BeepBloopBoop;
 			packageProductDependencies = (
