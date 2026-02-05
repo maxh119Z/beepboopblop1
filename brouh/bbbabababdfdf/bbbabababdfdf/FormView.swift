@@ -6,16 +6,11 @@ struct FormView: View {
 
     var body: some View {
         ZStack {
-            Color(hex: "#fdf6ec").ignoresSafeArea()
+            Color(hex: "#ffffff").ignoresSafeArea()
 
-            VStack(spacing: 16) {
-                NavigationLink("Start Form Detection") {
-                    CameraPoseView()
-                }
-
+            VStack(spacing: 60) {
+                // Top row buttons
                 HStack {
-          
-                    
                     IconButton(systemName: "chevron.left") {
                         dismiss() // goes back
                     }
@@ -31,9 +26,8 @@ struct FormView: View {
 
                 // Main section
                 VStack(spacing: 12) {
-                    Button {
-                        // TODO: navigate to CameraView later
-                        print("Start Form Detection tapped")
+                    NavigationLink {
+                        CameraPoseView()
                     } label: {
                         HStack(spacing: 10) {
                             Text("Start Form Detection")
@@ -49,6 +43,8 @@ struct FormView: View {
                         .cornerRadius(10)
                         .shadow(color: .black.opacity(0.25), radius: 7, x: 0, y: 4)
                     }
+                    .buttonStyle(.plain)
+
 
                     Text("Wifi Connection is Required!")
                         .font(.system(size: 16, weight: .semibold))
@@ -59,6 +55,7 @@ struct FormView: View {
                     Image("placeholder")
                         .resizable()
                         .scaledToFit()
+                        .frame(width: 220)
                         .frame(maxWidth: .infinity)
                 }
                 .padding(.horizontal, 26)
@@ -95,7 +92,7 @@ private struct InfoModalView: View {
 
     var body: some View {
         ZStack {
-            Color(hex: "#fdf6ec").ignoresSafeArea()
+            Color(hex: "#ffffff").ignoresSafeArea()
 
             VStack(spacing: 12) {
                 HStack {
@@ -127,6 +124,7 @@ Ensure your entire upper body is visible. Hold up your badminton form, and the s
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal, 18)
+                    .scaleEffect(x: -1, y: 1)
 
                 Spacer(minLength: 10)
             }

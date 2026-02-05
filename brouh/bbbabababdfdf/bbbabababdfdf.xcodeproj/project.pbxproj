@@ -7,80 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		42A8DAC22F2FDFA00004E983 /* PBXContainerItemProxy */ = {
+		421AA4EA2F31BBA6009FD584 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42A8DAA82F2FDF9F0004E983 /* Project object */;
+			containerPortal = 421AA4D02F31BBA5009FD584 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42A8DAAF2F2FDF9F0004E983;
-			remoteInfo = BeepBloopBoop;
+			remoteGlobalIDString = 421AA4D72F31BBA5009FD584;
+			remoteInfo = bbbabababdfdf;
 		};
-		42A8DACC2F2FDFA00004E983 /* PBXContainerItemProxy */ = {
+		421AA4F42F31BBA6009FD584 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 42A8DAA82F2FDF9F0004E983 /* Project object */;
+			containerPortal = 421AA4D02F31BBA5009FD584 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42A8DAAF2F2FDF9F0004E983;
-			remoteInfo = BeepBloopBoop;
+			remoteGlobalIDString = 421AA4D72F31BBA5009FD584;
+			remoteInfo = bbbabababdfdf;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42A8DAB02F2FDF9F0004E983 /* BeepBloopBoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepBloopBoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A8DAC12F2FDFA00004E983 /* BeepBloopBoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepBloopBoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A8DACB2F2FDFA00004E983 /* BeepBloopBoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeepBloopBoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA4D82F31BBA5009FD584 /* bbbabababdfdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bbbabababdfdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA4E92F31BBA6009FD584 /* bbbabababdfdfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbbabababdfdfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AA4F32F31BBA6009FD584 /* bbbabababdfdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbbabababdfdfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		42A8DAD32F2FDFA00004E983 /* Exceptions for "BeepBloopBoop" folder in "BeepBloopBoop" target */ = {
+		421AA4FB2F31BBA6009FD584 /* Exceptions for "bbbabababdfdf" folder in "bbbabababdfdf" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 42A8DAAF2F2FDF9F0004E983 /* BeepBloopBoop */;
+			target = 421AA4D72F31BBA5009FD584 /* bbbabababdfdf */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		42A8DAB22F2FDF9F0004E983 /* BeepBloopBoop */ = {
+		421AA4DA2F31BBA5009FD584 /* bbbabababdfdf */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				42A8DAD32F2FDFA00004E983 /* Exceptions for "BeepBloopBoop" folder in "BeepBloopBoop" target */,
+				421AA4FB2F31BBA6009FD584 /* Exceptions for "bbbabababdfdf" folder in "bbbabababdfdf" target */,
 			);
-			path = BeepBloopBoop;
+			path = bbbabababdfdf;
 			sourceTree = "<group>";
 		};
-		42A8DAC42F2FDFA00004E983 /* BeepBloopBoopTests */ = {
+		421AA4EC2F31BBA6009FD584 /* bbbabababdfdfTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BeepBloopBoopTests;
+			path = bbbabababdfdfTests;
 			sourceTree = "<group>";
 		};
-		42A8DACE2F2FDFA00004E983 /* BeepBloopBoopUITests */ = {
+		421AA4F62F31BBA6009FD584 /* bbbabababdfdfUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BeepBloopBoopUITests;
-			sourceTree = "<group>";
-		};
-		42A8DAE72F2FE29B0004E983 /* Resources */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resources;
+			path = bbbabababdfdfUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42A8DAAD2F2FDF9F0004E983 /* Frameworks */ = {
+		421AA4D52F31BBA5009FD584 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DABE2F2FDFA00004E983 /* Frameworks */ = {
+		421AA4E62F31BBA6009FD584 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DAC82F2FDFA00004E983 /* Frameworks */ = {
+		421AA4F02F31BBA6009FD584 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,23 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42A8DAA72F2FDF9F0004E983 = {
+		421AA4CF2F31BBA5009FD584 = {
 			isa = PBXGroup;
 			children = (
-				42A8DAE72F2FE29B0004E983 /* Resources */,
-				42A8DAB22F2FDF9F0004E983 /* BeepBloopBoop */,
-				42A8DAC42F2FDFA00004E983 /* BeepBloopBoopTests */,
-				42A8DACE2F2FDFA00004E983 /* BeepBloopBoopUITests */,
-				42A8DAB12F2FDF9F0004E983 /* Products */,
+				421AA4DA2F31BBA5009FD584 /* bbbabababdfdf */,
+				421AA4EC2F31BBA6009FD584 /* bbbabababdfdfTests */,
+				421AA4F62F31BBA6009FD584 /* bbbabababdfdfUITests */,
+				421AA4D92F31BBA5009FD584 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42A8DAB12F2FDF9F0004E983 /* Products */ = {
+		421AA4D92F31BBA5009FD584 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42A8DAB02F2FDF9F0004E983 /* BeepBloopBoop.app */,
-				42A8DAC12F2FDFA00004E983 /* BeepBloopBoopTests.xctest */,
-				42A8DACB2F2FDFA00004E983 /* BeepBloopBoopUITests.xctest */,
+				421AA4D82F31BBA5009FD584 /* bbbabababdfdf.app */,
+				421AA4E92F31BBA6009FD584 /* bbbabababdfdfTests.xctest */,
+				421AA4F32F31BBA6009FD584 /* bbbabababdfdfUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,135 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42A8DAAF2F2FDF9F0004E983 /* BeepBloopBoop */ = {
+		421AA4D72F31BBA5009FD584 /* bbbabababdfdf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A8DAD42F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoop" */;
+			buildConfigurationList = 421AA4FC2F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdf" */;
 			buildPhases = (
-				42A8DAAC2F2FDF9F0004E983 /* Sources */,
-				42A8DAAD2F2FDF9F0004E983 /* Frameworks */,
-				42A8DAAE2F2FDF9F0004E983 /* Resources */,
+				421AA4D42F31BBA5009FD584 /* Sources */,
+				421AA4D52F31BBA5009FD584 /* Frameworks */,
+				421AA4D62F31BBA5009FD584 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				42A8DAB22F2FDF9F0004E983 /* BeepBloopBoop */,
-				42A8DAE72F2FE29B0004E983 /* Resources */,
+				421AA4DA2F31BBA5009FD584 /* bbbabababdfdf */,
 			);
-			name = BeepBloopBoop;
+			name = bbbabababdfdf;
 			packageProductDependencies = (
 			);
-			productName = BeepBloopBoop;
-			productReference = 42A8DAB02F2FDF9F0004E983 /* BeepBloopBoop.app */;
+			productName = bbbabababdfdf;
+			productReference = 421AA4D82F31BBA5009FD584 /* bbbabababdfdf.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42A8DAC02F2FDFA00004E983 /* BeepBloopBoopTests */ = {
+		421AA4E82F31BBA6009FD584 /* bbbabababdfdfTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A8DAD92F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoopTests" */;
+			buildConfigurationList = 421AA5012F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdfTests" */;
 			buildPhases = (
-				42A8DABD2F2FDFA00004E983 /* Sources */,
-				42A8DABE2F2FDFA00004E983 /* Frameworks */,
-				42A8DABF2F2FDFA00004E983 /* Resources */,
+				421AA4E52F31BBA6009FD584 /* Sources */,
+				421AA4E62F31BBA6009FD584 /* Frameworks */,
+				421AA4E72F31BBA6009FD584 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42A8DAC32F2FDFA00004E983 /* PBXTargetDependency */,
+				421AA4EB2F31BBA6009FD584 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				42A8DAC42F2FDFA00004E983 /* BeepBloopBoopTests */,
+				421AA4EC2F31BBA6009FD584 /* bbbabababdfdfTests */,
 			);
-			name = BeepBloopBoopTests;
+			name = bbbabababdfdfTests;
 			packageProductDependencies = (
 			);
-			productName = BeepBloopBoopTests;
-			productReference = 42A8DAC12F2FDFA00004E983 /* BeepBloopBoopTests.xctest */;
+			productName = bbbabababdfdfTests;
+			productReference = 421AA4E92F31BBA6009FD584 /* bbbabababdfdfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		42A8DACA2F2FDFA00004E983 /* BeepBloopBoopUITests */ = {
+		421AA4F22F31BBA6009FD584 /* bbbabababdfdfUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A8DADC2F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoopUITests" */;
+			buildConfigurationList = 421AA5042F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdfUITests" */;
 			buildPhases = (
-				42A8DAC72F2FDFA00004E983 /* Sources */,
-				42A8DAC82F2FDFA00004E983 /* Frameworks */,
-				42A8DAC92F2FDFA00004E983 /* Resources */,
+				421AA4EF2F31BBA6009FD584 /* Sources */,
+				421AA4F02F31BBA6009FD584 /* Frameworks */,
+				421AA4F12F31BBA6009FD584 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42A8DACD2F2FDFA00004E983 /* PBXTargetDependency */,
+				421AA4F52F31BBA6009FD584 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				42A8DACE2F2FDFA00004E983 /* BeepBloopBoopUITests */,
+				421AA4F62F31BBA6009FD584 /* bbbabababdfdfUITests */,
 			);
-			name = BeepBloopBoopUITests;
+			name = bbbabababdfdfUITests;
 			packageProductDependencies = (
 			);
-			productName = BeepBloopBoopUITests;
-			productReference = 42A8DACB2F2FDFA00004E983 /* BeepBloopBoopUITests.xctest */;
+			productName = bbbabababdfdfUITests;
+			productReference = 421AA4F32F31BBA6009FD584 /* bbbabababdfdfUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42A8DAA82F2FDF9F0004E983 /* Project object */ = {
+		421AA4D02F31BBA5009FD584 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					42A8DAAF2F2FDF9F0004E983 = {
+					421AA4D72F31BBA5009FD584 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					42A8DAC02F2FDFA00004E983 = {
+					421AA4E82F31BBA6009FD584 = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 42A8DAAF2F2FDF9F0004E983;
+						TestTargetID = 421AA4D72F31BBA5009FD584;
 					};
-					42A8DACA2F2FDFA00004E983 = {
+					421AA4F22F31BBA6009FD584 = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 42A8DAAF2F2FDF9F0004E983;
+						TestTargetID = 421AA4D72F31BBA5009FD584;
 					};
 				};
 			};
-			buildConfigurationList = 42A8DAAB2F2FDF9F0004E983 /* Build configuration list for PBXProject "BeepBloopBoop" */;
+			buildConfigurationList = 421AA4D32F31BBA5009FD584 /* Build configuration list for PBXProject "bbbabababdfdf" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 42A8DAA72F2FDF9F0004E983;
+			mainGroup = 421AA4CF2F31BBA5009FD584;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 42A8DAB12F2FDF9F0004E983 /* Products */;
+			productRefGroup = 421AA4D92F31BBA5009FD584 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42A8DAAF2F2FDF9F0004E983 /* BeepBloopBoop */,
-				42A8DAC02F2FDFA00004E983 /* BeepBloopBoopTests */,
-				42A8DACA2F2FDFA00004E983 /* BeepBloopBoopUITests */,
+				421AA4D72F31BBA5009FD584 /* bbbabababdfdf */,
+				421AA4E82F31BBA6009FD584 /* bbbabababdfdfTests */,
+				421AA4F22F31BBA6009FD584 /* bbbabababdfdfUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42A8DAAE2F2FDF9F0004E983 /* Resources */ = {
+		421AA4D62F31BBA5009FD584 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DABF2F2FDFA00004E983 /* Resources */ = {
+		421AA4E72F31BBA6009FD584 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DAC92F2FDFA00004E983 /* Resources */ = {
+		421AA4F12F31BBA6009FD584 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42A8DAAC2F2FDF9F0004E983 /* Sources */ = {
+		421AA4D42F31BBA5009FD584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DABD2F2FDFA00004E983 /* Sources */ = {
+		421AA4E52F31BBA6009FD584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A8DAC72F2FDFA00004E983 /* Sources */ = {
+		421AA4EF2F31BBA6009FD584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42A8DAC32F2FDFA00004E983 /* PBXTargetDependency */ = {
+		421AA4EB2F31BBA6009FD584 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42A8DAAF2F2FDF9F0004E983 /* BeepBloopBoop */;
-			targetProxy = 42A8DAC22F2FDFA00004E983 /* PBXContainerItemProxy */;
+			target = 421AA4D72F31BBA5009FD584 /* bbbabababdfdf */;
+			targetProxy = 421AA4EA2F31BBA6009FD584 /* PBXContainerItemProxy */;
 		};
-		42A8DACD2F2FDFA00004E983 /* PBXTargetDependency */ = {
+		421AA4F52F31BBA6009FD584 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42A8DAAF2F2FDF9F0004E983 /* BeepBloopBoop */;
-			targetProxy = 42A8DACC2F2FDFA00004E983 /* PBXContainerItemProxy */;
+			target = 421AA4D72F31BBA5009FD584 /* bbbabababdfdf */;
+			targetProxy = 421AA4F42F31BBA6009FD584 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42A8DAD52F2FDFA00004E983 /* Debug */ = {
+		421AA4FD2F31BBA6009FD584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -302,7 +295,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BeepBloopBoop/Info.plist;
+				INFOPLIST_FILE = bbbabababdfdf/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -318,7 +311,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoop;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -334,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		42A8DAD62F2FDFA00004E983 /* Release */ = {
+		421AA4FE2F31BBA6009FD584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -347,7 +340,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BeepBloopBoop/Info.plist;
+				INFOPLIST_FILE = bbbabababdfdf/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -363,7 +356,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoop;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -379,7 +372,7 @@
 			};
 			name = Release;
 		};
-		42A8DAD72F2FDFA00004E983 /* Debug */ = {
+		421AA4FF2F31BBA6009FD584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -441,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		42A8DAD82F2FDFA00004E983 /* Release */ = {
+		421AA5002F31BBA6009FD584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,7 +488,7 @@
 			};
 			name = Release;
 		};
-		42A8DADA2F2FDFA00004E983 /* Debug */ = {
+		421AA5022F31BBA6009FD584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,7 +499,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoopTests;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdfTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -516,12 +509,12 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepBloopBoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeepBloopBoop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bbbabababdfdf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bbbabababdfdf";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
-		42A8DADB2F2FDFA00004E983 /* Release */ = {
+		421AA5032F31BBA6009FD584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,7 +525,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoopTests;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdfTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -542,12 +535,12 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepBloopBoop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeepBloopBoop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bbbabababdfdf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bbbabababdfdf";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
 		};
-		42A8DADD2F2FDFA00004E983 /* Debug */ = {
+		421AA5052F31BBA6009FD584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -557,7 +550,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoopUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdfUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -567,12 +560,12 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = BeepBloopBoop;
+				TEST_TARGET_NAME = bbbabababdfdf;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
 		};
-		42A8DADE2F2FDFA00004E983 /* Release */ = {
+		421AA5062F31BBA6009FD584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -582,7 +575,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MACOSX_DEPLOYMENT_TARGET = 15.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = BBB.BeepBloopBoopUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = BBB.bbbabababdfdfUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -592,7 +585,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = BeepBloopBoop;
+				TEST_TARGET_NAME = bbbabababdfdf;
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -600,43 +593,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42A8DAAB2F2FDF9F0004E983 /* Build configuration list for PBXProject "BeepBloopBoop" */ = {
+		421AA4D32F31BBA5009FD584 /* Build configuration list for PBXProject "bbbabababdfdf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42A8DAD72F2FDFA00004E983 /* Debug */,
-				42A8DAD82F2FDFA00004E983 /* Release */,
+				421AA4FF2F31BBA6009FD584 /* Debug */,
+				421AA5002F31BBA6009FD584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A8DAD42F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoop" */ = {
+		421AA4FC2F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42A8DAD52F2FDFA00004E983 /* Debug */,
-				42A8DAD62F2FDFA00004E983 /* Release */,
+				421AA4FD2F31BBA6009FD584 /* Debug */,
+				421AA4FE2F31BBA6009FD584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A8DAD92F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoopTests" */ = {
+		421AA5012F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdfTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42A8DADA2F2FDFA00004E983 /* Debug */,
-				42A8DADB2F2FDFA00004E983 /* Release */,
+				421AA5022F31BBA6009FD584 /* Debug */,
+				421AA5032F31BBA6009FD584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A8DADC2F2FDFA00004E983 /* Build configuration list for PBXNativeTarget "BeepBloopBoopUITests" */ = {
+		421AA5042F31BBA6009FD584 /* Build configuration list for PBXNativeTarget "bbbabababdfdfUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42A8DADD2F2FDFA00004E983 /* Debug */,
-				42A8DADE2F2FDFA00004E983 /* Release */,
+				421AA5052F31BBA6009FD584 /* Debug */,
+				421AA5062F31BBA6009FD584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42A8DAA82F2FDF9F0004E983 /* Project object */;
+	rootObject = 421AA4D02F31BBA5009FD584 /* Project object */;
 }

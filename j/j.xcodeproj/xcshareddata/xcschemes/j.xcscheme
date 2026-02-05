@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42A8DAAF2F2FDF9F0004E983"
-               BuildableName = "BeepBloopBoop.app"
-               BlueprintName = "BeepBloopBoop"
-               ReferencedContainer = "container:BeepBloopBoop.xcodeproj">
+               BlueprintIdentifier = "42EFFA922F30735A009228C8"
+               BuildableName = "j.app"
+               BlueprintName = "j"
+               ReferencedContainer = "container:j.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,10 +35,10 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42A8DAC02F2FDFA00004E983"
-               BuildableName = "BeepBloopBoopTests.xctest"
-               BlueprintName = "BeepBloopBoopTests"
-               ReferencedContainer = "container:BeepBloopBoop.xcodeproj">
+               BlueprintIdentifier = "42EFFAA32F30735B009228C8"
+               BuildableName = "jTests.xctest"
+               BlueprintName = "jTests"
+               ReferencedContainer = "container:j.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,10 +46,10 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42A8DACA2F2FDFA00004E983"
-               BuildableName = "BeepBloopBoopUITests.xctest"
-               BlueprintName = "BeepBloopBoopUITests"
-               ReferencedContainer = "container:BeepBloopBoop.xcodeproj">
+               BlueprintIdentifier = "42EFFAAD2F30735B009228C8"
+               BuildableName = "jUITests.xctest"
+               BlueprintName = "jUITests"
+               ReferencedContainer = "container:j.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,10 +68,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42A8DAAF2F2FDF9F0004E983"
-            BuildableName = "BeepBloopBoop.app"
-            BlueprintName = "BeepBloopBoop"
-            ReferencedContainer = "container:BeepBloopBoop.xcodeproj">
+            BlueprintIdentifier = "42EFFA922F30735A009228C8"
+            BuildableName = "j.app"
+            BlueprintName = "j"
+            ReferencedContainer = "container:j.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,10 +85,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42A8DAAF2F2FDF9F0004E983"
-            BuildableName = "BeepBloopBoop.app"
-            BlueprintName = "BeepBloopBoop"
-            ReferencedContainer = "container:BeepBloopBoop.xcodeproj">
+            BlueprintIdentifier = "42EFFA922F30735A009228C8"
+            BuildableName = "j.app"
+            BlueprintName = "j"
+            ReferencedContainer = "container:j.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
